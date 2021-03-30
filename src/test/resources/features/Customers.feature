@@ -20,7 +20,6 @@ Feature: Customers
     And User fills search input with "<value>"
     Then 1 rows displayed
 
-
     Examples:
       | column name | value                |
       | Name        | Postimex             |

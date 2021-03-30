@@ -13,7 +13,7 @@ public class CustomersSteps extends CustomersPage {
 
     @Given("User on customers main page")
     public void userOnCustomersPage() {
-        driver.get("REPLACE ME WITH LINK TO INDEX.HTML");
+        driver.get("file:///G:/poolpit/uiui/index.html");
     }
 
     @When("User fills search input with {string}")
@@ -38,5 +38,4 @@ public class CustomersSteps extends CustomersPage {
         Assert.assertEquals(String.format("We expected %s, but there is %s rows displayed", amount, actualRowsNumber),
                 actualRowsNumber, amount);
     }
-
 }
