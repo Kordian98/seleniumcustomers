@@ -13,7 +13,7 @@ public class CustomersSteps extends CustomersPage {
 
     @Given("User on customers main page")
     public void userOnCustomersPage() {
-        driver.get("file:///G:/poolpit/uiui/index.html");
+        driver.get("REPLACE ME WITH LINK TO INDEX.HTML");
     }
 
     @When("User fills search input with {string}")
